@@ -1,0 +1,989 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(124.06deg, #ECFEFA 9.47%, #BEE9FF 29.35%, #DBEAFF 60.79%, #F3DBFF 85.49%);
+}
+
+.box .navbar1 {
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35%;
+  position: relative;
+}
+.box .navbar1 .logo {
+  position: absolute;
+  left: 10%;
+  top: 30px;
+  width: 287px;
+  height: 100px;
+  background-image: url("../css/Group 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box .navbar1 p {
+  color: black;
+  font-size: 13.53px;
+  line-height: 16.49px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+li:hover {
+  color: white;
+}
+li a {
+  text-decoration: none;
+}
+
+.pag1 {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.pag1 .list1 {
+  width: 720px;
+  height: 313px;
+  background-color: transparent;
+}
+.pag1 .list1 .p1 {
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 64.61px;
+  font-family: sans-serif;
+}
+.pag1 .list1 .p1 span {
+  font-weight: 500;
+  font-size: 23.49px;
+  line-height: 28.64px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.list2 {
+  width: 407px;
+  height: 578px;
+  background-image: url("../css/imegs/pinpng 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.list2 .div {
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  width: 284px;
+  height: 135px;
+  background: #C7EAFF;
+  filter: blur(26px);
+}
+
+button {
+  width: 234px;
+  height: 65px;
+  background-color: #00445B;
+  border: none;
+}
+button a {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.pag2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 500px;
+  gap: 100px 10px;
+}
+.pag2 .pag22 {
+  background-color: transparent;
+}
+
+.pag22:nth-child(1) {
+  grid-column: 1/4;
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+}
+.pag22:nth-child(1) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 9.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pag22:nth-child(1) .bg:nth-child(1) h3 {
+  position: absolute;
+  bottom: 110%;
+  left: 3%;
+  color: #00445B;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40.23px;
+  font-family: sans-serif;
+}
+.pag22:nth-child(1) .bg:nth-child(1) p {
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 21.94px;
+}
+.pag22:nth-child(1) .bg:nth-child(1) p span {
+  color: #646464;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  font-family: sans-serif;
+}
+.pag22:nth-child(1) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 10.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pag22:nth-child(1) .bg:nth-child(2) p {
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 21.94px;
+}
+.pag22:nth-child(1) .bg:nth-child(2) p span {
+  color: #646464;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  font-family: sans-serif;
+}
+.pag22:nth-child(1) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 11.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pag22:nth-child(1) .bg:nth-child(3) p {
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 21.94px;
+}
+.pag22:nth-child(1) .bg:nth-child(3) p span {
+  color: #646464;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  font-family: sans-serif;
+}
+
+.pag22:nth-child(2) {
+  grid-column: 1/4;
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+  position: relative;
+}
+.pag22:nth-child(2) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 13.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(2) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 13-1.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(2) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 13-2.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(2) .bg:nth-child(4) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 8%;
+}
+.pag22:nth-child(2) .bg:nth-child(4) h3 {
+  color: #00445B;
+  position: absolute;
+  bottom: 210%;
+  left: 1%;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.23px;
+}
+.pag22:nth-child(2) .bg:nth-child(4) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(2) .bg:nth-child(4) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(2) .bg:nth-child(4) button {
+  background-color: #00445B;
+  width: 295px;
+  height: 46px;
+  border: none;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+.pag22:nth-child(2) .bg:nth-child(4) button li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+}
+.pag22:nth-child(2) .bg:nth-child(5) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 573px;
+}
+.pag22:nth-child(2) .bg:nth-child(5) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(2) .bg:nth-child(5) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(2) .bg:nth-child(5) button {
+  background-color: #00445B;
+  width: 295px;
+  height: 46px;
+  border: none;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+.pag22:nth-child(2) .bg:nth-child(5) button li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+}
+.pag22:nth-child(2) .bg:nth-child(6) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 1026px;
+}
+.pag22:nth-child(2) .bg:nth-child(6) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(2) .bg:nth-child(6) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(2) .bg:nth-child(6) button {
+  background-color: #00445B;
+  width: 295px;
+  height: 46px;
+  border: none;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+.pag22:nth-child(2) .bg:nth-child(6) button li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+.pag22:nth-child(3) {
+  grid-column: 1/4;
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+  position: relative;
+}
+.pag22:nth-child(3) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 13-3.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(3) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 13-4.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(3) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 13-5.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(3) .bg:nth-child(4) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-top: 1%;
+  padding-left: 2%;
+  left: 8%;
+}
+.pag22:nth-child(3) .bg:nth-child(4) h3 {
+  color: #00445B;
+  position: absolute;
+  bottom: 210%;
+  left: 1%;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.23px;
+}
+.pag22:nth-child(3) .bg:nth-child(4) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(3) .bg:nth-child(4) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(3) .bg:nth-child(5) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-top: 1%;
+  padding-left: 2%;
+  left: 573px;
+}
+.pag22:nth-child(3) .bg:nth-child(5) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(3) .bg:nth-child(5) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(3) .bg:nth-child(6) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-top: 1%;
+  padding-left: 2%;
+  left: 1026px;
+}
+.pag22:nth-child(3) .bg:nth-child(6) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(3) .bg:nth-child(6) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+
+.pag22:nth-child(4) {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 15px 15px;
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+.pag22:nth-child(4) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 12.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(4) .bg:nth-child(1) h3 {
+  position: absolute;
+  top: 333%;
+  left: 11%;
+  color: #00445B;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 40.23px;
+}
+.pag22:nth-child(4) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 12-2.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(4) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 12-4.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(4) .bg:nth-child(4) {
+  background-image: url("../css/imegs/Rectangle 12-1.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(4) .bg:nth-child(5) {
+  background-image: url("../css/imegs/Rectangle 12-3.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(4) .bg:nth-child(6) {
+  background-image: url("../css/imegs/Rectangle 12-5.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pag22:nth-child(5) {
+  grid-column: 1/4;
+  padding-left: 6%;
+  padding-right: 12%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+}
+.pag22:nth-child(5) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 13-3.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(5) .bg:nth-child(1) h3 {
+  position: absolute;
+  top: 406%;
+  left: 6%;
+  color: #00445B;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 40.23px;
+}
+.pag22:nth-child(5) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 13-4.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(5) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 13-5.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pag22:nth-child(6) {
+  grid-column: 1/4;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+}
+.pag22:nth-child(6) .bg:nth-child(1) {
+  padding-left: 10%;
+  padding-top: 20%;
+  width: 369px;
+  height: 224px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(6) .bg:nth-child(1) h3 {
+  color: #00445B;
+  position: absolute;
+  top: 464%;
+  left: 10%;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.23px;
+}
+.pag22:nth-child(6) .bg:nth-child(1) span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(6) .bg:nth-child(1) .bi {
+  background-image: url("../css/imegs/Ellipse 3.png");
+  height: 110px;
+  width: 110px;
+  background-color: yellow;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 18%;
+  top: 472%;
+}
+.pag22:nth-child(6) .bg:nth-child(2) {
+  padding-left: 10%;
+  padding-top: 20%;
+  width: 369px;
+  height: 224px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(6) .bg:nth-child(2) span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(6) .bg:nth-child(2) .bi {
+  background-image: url("../css/imegs/Ellipse 3-1.png");
+  height: 110px;
+  width: 110px;
+  background-color: yellow;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 45%;
+  top: 472%;
+}
+.pag22:nth-child(6) .bg:nth-child(3) {
+  padding-left: 10%;
+  padding-top: 20%;
+  width: 369px;
+  height: 224px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(6) .bg:nth-child(3) span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(6) .bg:nth-child(3) .bi {
+  background-image: url("../css/imegs/Ellipse 3-2.png");
+  height: 110px;
+  width: 110px;
+  background-color: yellow;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 73%;
+  top: 472%;
+}
+
+.pag22:nth-child(7) {
+  grid-column: 1/4;
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 10px 20px;
+  position: relative;
+}
+.pag22:nth-child(7) .bg:nth-child(1) {
+  background-image: url("../css/imegs/Rectangle 13-6.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(7) .bg:nth-child(2) {
+  background-image: url("../css/imegs/Rectangle 13-7.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(7) .bg:nth-child(3) {
+  background-image: url("../css/imegs/Rectangle 13-8.png");
+  width: 368px;
+  height: 178px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pag22:nth-child(7) .bg:nth-child(4) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 8%;
+}
+.pag22:nth-child(7) .bg:nth-child(4) h3 {
+  color: #00445B;
+  position: absolute;
+  bottom: 210%;
+  left: 1%;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40.23px;
+}
+.pag22:nth-child(7) .bg:nth-child(4) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(7) .bg:nth-child(4) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(7) .bg:nth-child(4) p .fo {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-family: sans-serif;
+}
+.pag22:nth-child(7) .bg:nth-child(4) .got {
+  width: 85px;
+  height: 14px;
+  background-image: url("../css/Group 30.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag22:nth-child(7) .bg:nth-child(5) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 573px;
+}
+.pag22:nth-child(7) .bg:nth-child(5) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(7) .bg:nth-child(5) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(7) .bg:nth-child(5) .got {
+  width: 85px;
+  height: 14px;
+  background-image: url("../css/Group 30.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag22:nth-child(7) .bg:nth-child(6) {
+  width: 368px;
+  height: 178px;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+  left: 1026px;
+}
+.pag22:nth-child(7) .bg:nth-child(6) p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-family: sans-serif;
+  color: black;
+}
+.pag22:nth-child(7) .bg:nth-child(6) p span {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 16.8px;
+}
+.pag22:nth-child(7) .bg:nth-child(6) .got {
+  width: 85px;
+  height: 14px;
+  background-image: url("../css/Group 30.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pag3 {
+  width: 100%;
+  height: 400px;
+  background-color: transparent;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.pag3 .ram {
+  width: 1166px;
+  height: 228px;
+  background-image: url("../css/imegs/Rectangle 1234.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pag3 .ram h3 {
+  color: #00445B;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 40.23px;
+  position: absolute;
+  bottom: 107%;
+}
+
+.pag4 {
+  width: 100%;
+  height: 406px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pag4 h3 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 40.23px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  color: #00445B;
+}
+.pag4 input:nth-child(1) {
+  width: 369px;
+  height: 46px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+}
+.pag4 input:nth-child(2) {
+  width: 269px;
+  height: 46px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+}
+.pag4 input:nth-child(3) {
+  width: 269px;
+  height: 46px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+}
+.pag4 button {
+  width: 169px;
+  height: 46px;
+  background-color: #00445B;
+  margin: 10px;
+}
+.pag4 button li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  color: white;
+}
+.pag4 .logo2 {
+  width: 279px;
+  height: 100px;
+  background-image: url("../css/Group 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 70%;
+  left: 11%;
+}/*# sourceMappingURL=home.css.map */

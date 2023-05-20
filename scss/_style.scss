@@ -1,0 +1,702 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(124.06deg, #ECFEFA 9.47%, #BEE9FF 29.35%, #DBEAFF 60.79%, #F3DBFF 85.49%);
+}
+.box{
+    .navbar1{
+        width: 100%;
+        height: 100px;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 35%;
+        position: relative;
+        .logo{
+            position: absolute;
+            left: 10%;
+            top: 30px;
+            width: 287px;
+            height: 100px;
+            background-image: url('../css/Group\ 5.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p{
+            color: black;
+            font-size: 13.53px;
+            line-height: 16.49px;
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+    }
+}
+li{
+    list-style: none;
+    &:hover{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.pag1{
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color:transparent;
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+        .list1{
+            width: 720px;
+            height: 313px;
+            background-color:transparent;
+            .p1{
+                font-weight: 700;
+                font-size: 53px;
+                line-height: 64.61px;
+                font-family: sans-serif;
+                span{
+                    font-weight: 500;
+                    font-size: 23.49px;
+                    line-height: 28.64px;
+                    font-family: sans-serif;
+                    font-style: normal;
+                }
+            }
+        }
+}
+.list2{
+    width: 407px;
+    height: 578px;
+    background-image: url('../css/imegs/pinpng\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .div{
+        position: absolute;
+        top: 85%;
+        left: 20%;
+        width: 284px;
+        height: 135px;
+        background: #C7EAFF;
+        filter: blur(26px);
+    }
+
+}
+button{
+    width: 234px;
+    height: 65px;
+    background-color: #00445B;
+    border: none;
+    a{ 
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17.07px;
+        font-family: sans-serif;
+        text-decoration: none;
+
+    }
+}
+.pag2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+    gap: 100px 10px;
+    .pag22{
+        background-color: transparent;
+    }
+}
+
+
+@mixin bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 10px 20px;
+}
+@mixin bgf{
+    width: 368px;
+    height: 178px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin p12{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 21.94px;
+    span{
+        color: #646464;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17.07px;
+        font-family: sans-serif;
+    }
+}
+@mixin bg2{
+    width: 368px;
+    height: 178px;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    
+}
+@mixin bg3{
+    width: 369px;
+    height: 224px;
+    background-color: white;
+}
+@mixin bi{
+height: 110px;
+width: 110px;
+ background-color: yellow;
+ border-radius: 50%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: absolute;  
+}
+@mixin pi{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    font-family: sans-serif;
+    color: black;
+    span{
+        color: 
+        #000000;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: sans-serif;
+        line-height: 16.8px;
+    }
+}
+@mixin but{
+    background-color: 
+    #00445B;
+    width: 295px;
+    height: 46px;
+     border: none;
+     position: absolute;
+     left: 10%;
+     top: 60%;
+     li{
+        list-style: none;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17.07px;
+     }
+}
+
+.pag22:nth-child(1){
+    grid-column: 1/4;
+    padding-left: 8%;
+    padding-right: 4%;
+    padding-top: 5%;
+    @include bg();
+    .bg:nth-child(1){
+        background-image: url('../css/imegs/Rectangle\ 9.png');
+        @include bgf();
+        position: relative;
+        h3{
+            position: absolute;
+            bottom: 110%;
+            left: 3%;
+            color: 
+            #00445B;
+            font-weight: 700;
+            font-size: 33px;
+            line-height: 40.23px;
+            font-family: sans-serif;
+        }
+        p{  
+            @include p12();
+        }
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 10.png');
+        @include bgf();
+        position: relative;
+        p{  
+           @include p12();
+        }
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 11.png');
+        @include bgf();
+        position: relative;
+        p{  
+           @include p12();
+        }
+    }
+
+   
+}
+.pag22:nth-child(2){    
+    grid-column: 1/4;
+    padding-left: 8%;
+    padding-right: 4%;
+    padding-top: 5%;
+    @include bg();
+    position: relative;
+    .bg:nth-child(1){
+        background-image: url('../css/imegs/Rectangle\ 13.png');
+        @include bgf();
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 13-1.png');
+        @include bgf();
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 13-2.png');
+        @include bgf();
+    }
+    .bg:nth-child(4){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 8%;
+        h3{
+            color:
+            #00445B;
+                position: absolute;
+                bottom: 210%;
+                left: 1%;
+                font-family: sans-serif;
+                font-size: 33px;
+                font-weight: 700;
+                line-height: 40.23px;
+
+        }
+        p{
+            @include pi();
+        }
+        button{
+            @include but();
+        }
+    }
+    .bg:nth-child(5){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 573px;
+        p{
+            @include pi();
+        }
+        button{
+            @include but();
+        }
+        
+    }
+    .bg:nth-child(6){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 1026px;
+        p{
+            @include pi();
+        }
+        button{
+            @include but();
+        }
+    }
+    
+}
+
+.pag22:nth-child(3){
+    grid-column: 1/4;
+    padding-left: 8%;
+    padding-right: 4%;
+    padding-top: 5%;
+    @include bg();
+    position: relative;
+    .bg:nth-child(1){
+        background-image: url('../css/imegs/Rectangle\ 13-3.png');
+        @include bgf();
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 13-4.png');
+        @include bgf();
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 13-5.png');
+        @include bgf();
+    }
+    .bg:nth-child(4){
+        @include bg2();
+        padding-top: 1%;
+        padding-left: 2%;
+        left: 8%;
+        h3{
+            color:
+            #00445B;
+            position: absolute;
+            bottom: 210%;
+            left: 1%;
+            font-family: sans-serif;
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 40.23px;
+            
+        }
+        p{
+          @include pi();
+        }
+    }
+    .bg:nth-child(5){
+        @include bg2();
+        padding-top: 1%;
+        padding-left: 2%;
+        left: 573px;
+        p{
+            @include pi();
+        }
+    }
+    .bg:nth-child(6){
+        @include bg2();
+        padding-top: 1%;
+        padding-left: 2%;
+        left: 1026px;
+        p{
+            @include pi();
+        }
+    }
+}
+.pag22:nth-child(4){
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 15px 15px;  
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 15%;
+    .bg:nth-child(1){
+        h3{
+            position: absolute;
+            top: 333%;
+            left: 11%;
+            color:
+            #00445B;
+            font-size: 33px;
+            font-weight: 700;
+            font-family: sans-serif;
+            line-height: 40.23px;
+        }
+        background-image: url('../css/imegs/Rectangle\ 12.png');
+        @include bgf();
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 12-2.png');
+        @include bgf();
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 12-4.png');
+        @include bgf();
+    }
+    .bg:nth-child(4){
+        background-image: url('../css/imegs/Rectangle\ 12-1.png');
+        @include bgf();
+    }
+    .bg:nth-child(5){
+        background-image: url('../css/imegs/Rectangle\ 12-3.png');
+        @include bgf();
+    }
+    .bg:nth-child(6){
+        background-image: url('../css/imegs/Rectangle\ 12-5.png');
+        @include bgf();
+    }
+}
+.pag22:nth-child(5){
+    grid-column: 1/4;
+    padding-left: 6%;
+    padding-right: 12%;
+    padding-top:5%;
+    @include bg();
+    .bg:nth-child(1){
+        h3{
+            position: absolute;
+            top: 406%;
+            left: 6%;
+            color:
+            #00445B;
+                font-size: 33px;
+                font-weight: 700;
+                font-family: sans-serif;
+                line-height: 40.23px;
+            }
+        background-image: url('../css/imegs/Rectangle\ 13-3.png');
+        @include bgf();
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 13-4.png');
+        @include bgf();
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 13-5.png');
+        @include bgf();
+    }
+}
+
+.pag22:nth-child(6){
+    grid-column: 1/4;
+    padding-left: 10%;
+    padding-right: 10%;
+    @include bg();
+    .bg:nth-child(1){
+        padding-left: 10%;
+        padding-top: 20%;
+        h3{
+            color:
+            #00445B;
+            position: absolute;
+            top: 464%;
+            left: 10%; 
+            font-family: sans-serif;
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 40.23px;
+            
+        }   
+        @include bg3();
+        @include pi();
+        .bi{
+            background-image: url('../css/imegs/Ellipse\ 3.png');
+            @include bi();
+            left: 18%;    
+            top: 472%;
+        }
+    }
+    .bg:nth-child(2){
+        padding-left: 10%;
+        padding-top: 20%;
+        @include bg3();
+        @include pi();
+        .bi{
+            background-image: url('../css/imegs/Ellipse\ 3-1.png');
+            @include bi();
+            left: 45%;    
+             top: 472%; 
+        }
+       
+      
+    }
+    .bg:nth-child(3){
+        padding-left: 10%;
+        padding-top: 20%;
+        @include bg3();
+        @include pi();
+        .bi{
+            background-image: url('../css/imegs/Ellipse\ 3-2.png');
+            @include bi();
+            left: 73%;    
+            top: 472%; 
+        }
+       
+      
+}
+}
+.pag22:nth-child(7){    
+    grid-column: 1/4;
+    padding-left: 8%;
+    padding-right: 4%;
+    padding-top: 5%;
+    @include bg();
+    position: relative;
+    .bg:nth-child(1){
+        background-image: url('../css/imegs/Rectangle\ 13-6.png');
+        @include bgf();
+    }
+    .bg:nth-child(2){
+        background-image: url('../css/imegs/Rectangle\ 13-7.png');
+        @include bgf();
+    }
+    .bg:nth-child(3){
+        background-image: url('../css/imegs/Rectangle\ 13-8.png');
+        @include bgf();
+    }
+    .bg:nth-child(4){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 8%;
+        h3{
+            color:
+            #00445B;
+                position: absolute;
+                bottom: 210%;
+                left: 1%;
+                font-family: sans-serif;
+                font-size: 33px;
+                font-weight: 700;
+                line-height: 40.23px;
+
+        }
+        p{
+            @include pi();
+            .fo{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16.8px;
+                font-family: sans-serif;
+            }
+        }
+        .got{
+            width: 85px;
+            height:14px;
+            background-image: url('../css/Group\ 30.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .bg:nth-child(5){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 573px;
+        p{
+            @include pi();
+        }
+        .got{
+            width: 85px;
+            height:14px;
+            background-image: url('../css/Group\ 30.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        
+    }
+    .bg:nth-child(6){
+        @include bg2();
+        padding-left: 3%;
+        padding-top: 2%;
+        left: 1026px;
+        p{
+            @include pi();
+        }
+        .got{
+            width: 85px;
+            height:14px;
+            background-image: url('../css/Group\ 30.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    
+}
+.pag3{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    padding-left: 10%;
+    padding-top: 5%;
+    .ram{
+        width: 1166px;
+        height: 228px;
+        background-image: url('../css/imegs/Rectangle\ 1234.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        h3{
+            color:#00445B;
+            font-size: 33px;
+            font-weight: 700;
+            font-family: sans-serif;
+            line-height: 40.23px;
+            position: absolute;
+            bottom: 107%;
+
+        }
+    }
+}
+.pag4{
+    width: 100%;
+    height: 406px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    h3{
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 40.23px;
+        font-family: sans-serif;
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        color: #00445B;
+    }
+    input:nth-child(1){
+        width:369px;
+        height: 46px;
+        background-color: white;
+        border: none;
+        margin: 10px;
+    }
+    input:nth-child(2){
+        width:269px;
+        height: 46px;
+        background-color: white;
+        border: none;
+        margin: 10px;
+    }
+    input:nth-child(3){
+        width:269px;
+        height: 46px;
+        background-color: white;
+        border: none;
+        margin: 10px;
+    }
+    button{
+        width: 169px;
+        height: 46px;
+        background-color: #00445B;
+        margin: 10px;
+        li{
+            list-style: none;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17.07px;
+            color: white;
+        }
+    }
+    .logo2{
+        width: 279px;
+        height: 100px;
+        background-image: url('../css/Group\ 5.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top:70%;
+        left: 11%;
+    }
+}
